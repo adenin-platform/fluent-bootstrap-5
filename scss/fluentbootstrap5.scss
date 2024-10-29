@@ -121,7 +121,7 @@ $h1-font-size: $font-size-base * 2.625 !default;
 
 
     @import "reboot";
-
+    @import "bootstrap/scss/card";
 }
  
 
@@ -137,7 +137,7 @@ $h1-font-size: $font-size-base * 2.625 !default;
 @import "bootstrap/scss/button-group";
 @import "bootstrap/scss/nav";
 @import "bootstrap/scss/navbar"; // Requires nav
-@import "bootstrap/scss/card";
+
 @import "bootstrap/scss/breadcrumb";
 @import "bootstrap/scss/accordion";
 @import "bootstrap/scss/pagination";
