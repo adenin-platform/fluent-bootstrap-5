@@ -10,7 +10,7 @@ This project is inspired by [FluentBootstrap](https://github.com/scottkuhl/Fluen
 
 ### Avoiding Global Styles
 
-To prevent conflicts when embedded in other web applications, the `style.css` file has been configured to avoid modifying global element selectors (such as `body` or `a`). Instead, styles are applied only within containers that have the `fluentbootstrap5` class. For example:
+To prevent conflicts when embedded in other web applications, the `style.css` file has been configured to avoid modifying global element selectors (such as `body` or `a`). Instead, styles are applied only within containers that have the `fluentbootstrap5body` class. For example:
 
 ```html
 <!DOCTYPE html>
@@ -20,7 +20,7 @@ To prevent conflicts when embedded in other web applications, the `style.css` fi
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body class="fluentbootstrap5">
+<body class="fluentbootstrap5body">
   ...
 </body>
 </html>

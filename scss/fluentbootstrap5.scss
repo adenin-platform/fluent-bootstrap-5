@@ -126,6 +126,10 @@ $h1-font-size: $font-size-base * 2.625 !default;
 
 .fluentbootstrap5 
 {
+    iframe {
+        border: 0;
+      }
+      
     @import "bootstrap/scss/card";
 }
 
