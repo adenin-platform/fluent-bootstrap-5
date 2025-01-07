@@ -106,7 +106,7 @@ $h1-font-size: $font-size-base * 2.625 !default;
 
 @import "bootstrap/scss/root";
 
-.fluentbootstrap5 {
+.fluentbootstrap5body {
 
     margin: 0;
     font-family: var(--bs-body-font-family);
@@ -123,7 +123,12 @@ $h1-font-size: $font-size-base * 2.625 !default;
     @import "reboot";
     @import "bootstrap/scss/card";
 }
- 
+
+.fluentbootstrap5 
+{
+    @import "bootstrap/scss/card";
+}
+
 
 @import "bootstrap/scss/type";
 @import "bootstrap/scss/images";
